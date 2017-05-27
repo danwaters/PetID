@@ -3,6 +3,8 @@ This simple app demonstrates use of the Azure Cognitive Services Custom Vision A
 
 It's simple: take a picture of a pet, get a prediction back of which pet it is.
 
+See a [video](https://www.dropbox.com/s/zsvcrodotnw9iq5/customvision.mov?dl=0) of this app in action.
+
 ## How does it work? 
 I took about 20 photos each of our three family pets: Ginger, a tan cat, Pepper, a white and black cat, and Mochi, a white dog. I uploaded and tagged these images in the Custom Vision portal.
 
