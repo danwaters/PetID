@@ -10,7 +10,13 @@ The customvision.ai website uses the same RESTful APIs behind the scenes that ar
 
 The prediction code is in the iOS project under PredictionService.cs
 
+## What do I do to get started?
+* Familiarize yourself with this [sample code](https://github.com/Microsoft/Cognitive-CustomVision-Windows/blob/master/Samples/CustomVision.Sample/Program.cs) from the product team
+* Head to customvision.ai and create a project, then upload & tag photos, and train the system
+* Grab your Training API Key and Prediction API Key and put them in APIKeys.cs
+
 ## Limitations
+* iOS only for now (Droid project is unloaded).
 * The Cognitive Services Custom Vision NuGets are not PCL yet, so I have created a DependencyService that wraps these APIs for iOS and exposes them to Forms.
 * The code will just pick your first project from customvision.ai. It assumes you have only one project.  
 * The UI is extremely barebones
@@ -21,5 +27,6 @@ The prediction code is in the iOS project under PredictionService.cs
 ## Next steps
 * Add Android support
 * Make UI a little better
+* Add photo library support and UI test
 * Clean up README
 * Add vidoes and screenshots to README
